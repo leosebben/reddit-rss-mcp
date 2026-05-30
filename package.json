@@ -1,6 +1,6 @@
 {
   "name": "reddit-rss-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server para o Reddit baseado em feeds RSS (sem API key)",
   "type": "module",
   "bin": {
