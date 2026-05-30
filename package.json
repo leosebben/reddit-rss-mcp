@@ -1,0 +1,42 @@
+{
+  "name": "reddit-rss-mcp",
+  "version": "1.0.0",
+  "description": "MCP server para o Reddit baseado em feeds RSS (sem API key)",
+  "type": "module",
+  "bin": {
+    "reddit-rss-mcp": "index.js"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "reddit.js",
+    "explain.js",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "reddit",
+    "rss",
+    "claude"
+  ],
+  "author": "Leonardo Sebben <leonardo.sebben.br@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leosebben/reddit-rss-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leosebben/reddit-rss-mcp/issues"
+  },
+  "homepage": "https://github.com/leosebben/reddit-rss-mcp#readme",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0"
+  }
+}
